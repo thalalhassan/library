@@ -1,0 +1,268 @@
+@media screen and (max-width: 1200px) {
+    .banner .large {
+        display: none;
+    }
+     
+    .banner .btns{
+text-align: center;
+padding-bottom: 2rem;
+    }
+
+    .modal-content h4 ,p{
+        font-size: 12px;
+        padding-top:3%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .banner .small {
+        display: none;
+    }
+
+}
+
+
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+header a{
+    margin:0;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding-right: 1rem!important ;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lib1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    
+}
+.banner-text {
+    padding: 5rem 5rem 0 5rem ;
+    text-align: center;
+    color: rgb(240, 229, 229);
+  }
+ .banner-text h2{
+     font-size:22px; 
+     padding-bottom: 1rem; 
+     margin:0;
+ }
+.banner .left{
+    padding: 3rem 5rem 0 5rem;
+    color: aliceblue;
+    margin:5rem 5rem 5rem 3rem;
+}
+.banner .left h1{
+    font-size: 72px;
+}
+.banner .left p{
+    font-size: 18px;
+    letter-spacing:1px;
+}
+.banner .right{
+    color: aliceblue;
+    margin:5rem 2rem 3rem 1rem;
+    padding: 2rem 2rem 2rem 5rem;
+}
+.banner .right form {
+    background-color: rgba(0, 0, 0, 0.493);
+    padding:1rem 0 1rem 4rem;
+    border:1px solid #aaa;
+    border-radius: .4rem;
+}
+
+
+.banner .right input {
+    color: aliceblue;
+    width: 70%;
+    border:.5px solid #aaa ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: .3rem;
+    margin: .5rem;
+    padding:.3rem 0 .3rem .5rem;
+}
+.banner .right label {
+    color: aliceblue;
+    border-radius: .3rem;
+    margin: .5rem;
+    padding: 1%;
+}
+.banner a{
+color: rgb(240, 229, 229);
+text-decoration:none;
+
+}
+
+
+button{
+    margin: .5rem;
+}
+
+.cards{
+    margin: 1rem;
+    padding: 0%;
+
+}
+footer{
+    color: rgb(208, 217, 224);
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 1rem;
+}
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    margin:3px;
+}
+
+a:hover{
+    color: rgb(138, 31, 31);
+}
+button:hover{
+    color: rgb(138, 31, 31);
+
+}
+.card{
+    margin:.3rem;
+}
+
+
+
+/* ----------------------------content---------------------------- */
+/* Full-width input fields */
+.reg input,textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .radio input{
+      width:3rem;
+  }
+
+.reg h1{
+       margin-top: 2rem;
+   }
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+.reg .btn{
+    width:8rem;
+}
+/* ---------------------------popup----------------- */
+
+
+.form-popup {
+    display: none;
+    height:100%;
+    width: 100%;
+    font-size: 18px;
+    padding: 10%;
+    position: fixed;
+    top:5rem;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.644);
+   
+  }
+  .inner{
+    
+    min-width: 20rem;
+    max-width: 25rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding:2rem;
+    border: 1px solid #f1f1f1;
+    border-radius :0.5rem;
+    color: #aaa;
+    
+}
+
+.inner input {
+    color: aliceblue;
+    border:.5px solid #aaa ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: .3rem;
+    margin: .5rem;
+    padding:.3rem 0 .3rem .5rem;
+}
+.inner label {
+    color: aliceblue;
+    border-radius: .3rem;
+    margin: .5rem;
+    padding: 1%;
+}
+
+
+/* ----------------style alert------------------ */
+
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    top:40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:40%; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:40%; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    float: right;
+    padding: 2px 16px;
+    background-color: rgb(83, 5, 5);
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: rgb(83, 5, 5);
+    color: white;
+  }
+

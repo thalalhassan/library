@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./img/log.png" type="image/png">
+
+    
+    <title>Library</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/validaton.js"></script>
+  
+</head>
+<body>
+     <header>
+            <nav class="navbar fixed-top navbar-expand-md " style=" background-color: rgba(0, 0, 0, 0.5);">
+                    <a class="navbar-brand" href="index.html"><i class="fas fa-book-open fa-2x"></i></i></a>  
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-angle-double-down" style="color:white"></i>
+                              </button>    
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item ">
+                          <a class="nav-link text-right" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-right" href="Books.html">Books</a>
+                        </li>
+                        <li class="nav-item text-right">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item text-right">
+                        <a class="nav-link" href="about.html">About</a>
+                        </li>
+                      </ul>
+                    </div>
+            </nav>
+    </header>
+<section class="banner">
+    <div class="large">
+                    <div class="row container-fluid">
+                                    <div class="col-8 col-md-6 left">.
+                                        <h1>Library</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit suscipit id ipsa ut quibusdam itaque non adipisci quidem quam.</p>
+                                    </div>
+                                    <div class="col-6 col-md-4 right">
+                                            <form action="" class="form">
+                                                    <label for="email">Email</label> <br>
+                                                    <input type="email" name="" id="" placeholder="Email" required><br>
+                                                    <label for="pwd">Password</label> <br>
+                                                    <input type="password" name="" id="" placeholder="Password" required> <br>
+                                                    <button type="submit" class="btn btn-success">Sign In</button>
+                                                    <a href="signup.html" class="btn btn-outline-secondary">Sign Up</a>
+                                           </form>
+                    </div>
+
+            </div>
+    </div>
+        <div class="small">
+                    <div class="banner-text">
+                                    <h1 style="font-size:72px">Library</h1>
+                                    <p style="font-size:20px; letter-spacing:1px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quod!</p>
+              
+                    </div>
+                    <div class="btns">
+                                    <button type="button" class="btn btn-success" onclick="openForm()">Sign In</button>
+                                    <a href="signup.html" class="btn btn-outline-secondary">Sign Up</a>
+                    </div>
+                   
+                            <form action=""  class="form-popup" id="myForm">
+                                    <div class="inner">
+                                                    <label for="email">Email</label> <br>
+                                                    <input type="email" name="" id="" placeholder="Email" required><br>
+                                                    <label for="pwd">Password</label> <br>
+                                                    <input type="password" name="" id="" placeholder="Password" required> <br>
+                                                    <button type="submit" class="btn btn-success" >Sign In</button>
+                                                    <button type="button" class="btn btn-secondary" onclick="closeForm()">Close</button>
+                                                    <br>
+                                                    <p> Not registered <a href="signup.html">Sign Up</a></p>
+                                    </div>
+                           </form>
+                    
+                   
+
+       </div>
+
+
+</section>
+<!-- alertbox -->
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4>Error</h4>
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+      <p id="error" style="padding:5% 0;"></p>
+    </div>
+  </div>
+
+</div>
+
+    <section class="reg">
+            <form action="" name="RegForm" id="RegForm">
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="name"><b>Name</b></label>
+                  <input type="text" placeholder="eg : JohnDoe " id="name" required>
+
+                  <label for="age"><b>Age</b></label>
+                  <input type="number" placeholder="eg : 22" id="age" required >
+
+                  <label for="name"><b>Gender</b></label>
+                  <br>
+                    <div class="radio">
+                            <div class="form-check-inline ">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optradio"  checked>Male
+                                    </label>
+                                  </div>
+                                  <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optradio">Female
+                                    </label>
+                                  </div>
+                                  <div class="form-check-inline disabled">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optradio" >Other
+                                    </label>
+                                  </div>
+                    </div>
+                 
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="eg : JohnDoe@example.com" id="email" required>
+                  
+
+                 
+                  <label for="phone"><b>Phone</b></label>
+                  <input type="text" id="phn"  value="+91-" title=" eg format : +91-XXXXXXXXXX" required > 
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="eg : john1234" id="pwd"  required>
+
+
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="eg : john1234" id="rpwd" required>
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; width:1rem;"> Remember me
+                  </label>
+                  
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+              
+                  <div class="clearfix">
+                    <button type="button" class="btn btn-danger" onclick="cancel()">Cancel</button>
+                    <button type="button" class="btn btn-success" onclick="valid()">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+    </section>
+
+    <footer>
+                   
+                    <div class=" mid">
+                            <a href=""><i class="fab fa-twitter"></i></a> 
+                            <a href=""><i class="fab fa-medium"></i></a> 
+                            <a href=""><i class="fab fa-facebook"></i></a> 
+                            
+                            <br>
+                            &copy 2019 Library            
+                    </div>
+                  
+                  
+    </footer>
+    <script src="./js/validation.js"></script>
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

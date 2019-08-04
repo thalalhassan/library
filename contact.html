@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./img/log.png" type="image/png">
+    
+    <title>Library</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css">
+   
+  
+</head>
+<body>
+     <header>
+            <nav class="navbar fixed-top navbar-expand-md " style=" background-color: rgba(0, 0, 0, 0.5);">
+                    <a class="navbar-brand" href="index.html"><i class="fas fa-book-open fa-2x"></i></i></a>  
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-angle-double-down" style="color:white"></i>
+                              </button>    
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item ">
+                          <a class="nav-link text-right" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-right" href="Books.html">Books</a>
+                        </li>
+                        <li class="nav-item text-right">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item text-right">
+                        <a class="nav-link" href="about.html">About</a>
+                        </li>
+                      </ul>
+                    </div>
+            </nav>
+    </header>
+    <section class="banner">
+            <div class="large">
+                <div class="banner-text">
+                    <h1 style="font-size:72px">Library</h1>
+                    <p style="font-size:20px; letter-spacing:1px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, incidunt cumque .Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, incidunt cumque.</p>
+                    <h4><a href="index.html">Home</a> - Contact</h4>
+                  </div>
+            </div>
+            <div class="small">
+                <div class="banner-text">
+                    <h1 style="font-size:72px">Library</h1>
+                    <p style="font-size:20px; letter-spacing:1px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, incidunt cumque.</p>
+
+                  </div>
+            </div>
+                    
+        
+    </section>
+
+    <section>
+            
+            <form action="" class="reg">
+                <div class="container">
+                    <h1>Contact</h1>
+                    <hr>
+                  <label for="name"><b>Name</b></label>
+                  <input type="text" placeholder="eg : johnDoe" name="name" required>
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="email" placeholder="eg : johnDoe@example.com" name="email" required>
+                  
+                <br>
+                <label for="email"><b>Message</b></label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="eg : Hello Library"></textarea>
+              
+                  <div class="clearfix">
+                    <button type="submit" class="btn btn-success" onclick="valid()">Send</button>
+                  </div>
+                </div>
+              </form>
+    </section>
+     
+    <footer>
+                   
+                    <div class=" mid">
+                            <a href=""><i class="fab fa-twitter"></i></a> 
+                            <a href=""><i class="fab fa-medium"></i></a> 
+                            <a href=""><i class="fab fa-facebook"></i></a> 
+                            
+                            <br>
+                            &copy 2019 Library            
+                    </div>
+                  
+                  
+    </footer>
+
+    <script src="./js/validaton.js"></script>
+</body>
+</html>
