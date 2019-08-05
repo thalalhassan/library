@@ -78,7 +78,7 @@ function valid()
  	}
 	if( matchPhn==null)  
 	{
-		data="Phone No. format  should be +91-xxxxxxxxx";
+		data="Phone No. format  should be +91-xxxxxxxxx (x should be a number)";
 		message(data);
 		phone.focus();
 		return false;
