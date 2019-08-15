@@ -136,7 +136,6 @@ function valid()
 	 document.getElementById('RegForm').submit();
 	 return true;
 }
-// alert box
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 function message(data) {
@@ -152,6 +151,11 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+function close(){
+	window.open("../index.html","_self")
+
 }
 
 
